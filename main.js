@@ -1,4 +1,3 @@
-// Fade-in effect for sections when scrolling
 document.addEventListener("scroll", () => {
     document.querySelectorAll("section").forEach(section => {
         const position = section.getBoundingClientRect().top;
@@ -8,7 +7,7 @@ document.addEventListener("scroll", () => {
     });
 });
 
-// Flickering effect for main title
+
 const title = document.querySelector("h1");
 setInterval(() => {
     title.style.textShadow = Math.random() > 0.5 
@@ -16,7 +15,6 @@ setInterval(() => {
         : "0 0 10px #ff1c1c";
 }, 500);
 
-// Console Easter egg
 const spookyMessages = [
     "💀 Beware… The ghouls are watching.",
     "🍔 A burger a night keeps the spirits in sight.",
