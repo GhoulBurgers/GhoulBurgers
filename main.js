@@ -7,7 +7,6 @@ document.addEventListener("scroll", () => {
     });
 });
 
-
 const title = document.querySelector("h1");
 setInterval(() => {
     title.style.textShadow = Math.random() > 0.5 
@@ -22,3 +21,4 @@ const spookyMessages = [
     "👻 Boo! Thought this console was safe?"
 ];
 console.log(spookyMessages[Math.floor(Math.random() * spookyMessages.length)]);
+
